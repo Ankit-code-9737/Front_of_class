@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONT OF CLASS</title>
+
+    <!-- favicon link  -->
+    <link rel="icon" type="image/x-icon" href="assets/img/fev-icon.png">
+
+    <!-- Bootstrap link  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Font link  -->
+    <link href="https://fonts.cdnfonts.com/css/mada" rel="stylesheet">
+
+    <!-- Custom css link  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body>
+    <!-- Sidebar start -->
+    <sidebar class="sidebar">
+        <div class="logo">
+            <img class="big-logo" src="assets/img/main-logo.png" alt="">
+        </div>
+
+        <div class="nav-div">
+            <ul>
+                <li>
+                    <small>Profile</small>
+                    <a href="index.html" class="link">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.75 15C15.75 15.1989 15.671 15.3896 15.5303 15.5303C15.3897 15.6709 15.1989 15.75 15 15.75H3C2.80109 15.75 2.61032 15.6709 2.46967 15.5303C2.32902 15.3896 2.25 15.1989 2.25 15V7.11746C2.24992 7.00317 2.27596 6.89037 2.32614 6.78768C2.37631 6.685 2.44929 6.59513 2.5395 6.52496L8.5395 1.85846C8.67116 1.75604 8.8332 1.70044 9 1.70044C9.1668 1.70044 9.32884 1.75604 9.4605 1.85846L15.4605 6.52496C15.5507 6.59513 15.6237 6.685 15.6739 6.78768C15.724 6.89037 15.7501 7.00317 15.75 7.11746V15ZM14.25 14.25V7.48346L9 3.40046L3.75 7.48346V14.25H14.25Z"
+                                fill="white" />
+                        </svg>
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li class="drop-link">
+                    <small>Management</small>
+                    <a href="JavaScript:void(0)" class="link">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_3_2237)">
+                                <path
+                                    d="M13.5233 12.4628L16.7355 15.6743L15.6743 16.7355L12.4628 13.5233C11.2678 14.4812 9.7815 15.0022 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5C11.976 1.5 15 4.524 15 8.25C15.0022 9.7815 14.4812 11.2678 13.5233 12.4628ZM12.0188 11.9063C12.9706 10.9274 13.5022 9.61532 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5C9.61532 13.5022 10.9274 12.9706 11.9063 12.0188L12.0188 11.9063Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_3_2237">
+                                    <rect width="18" height="18" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p>Find New Staff</p>
+                        <svg class="arrow" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_3_2242)">
+                                <path
+                                    d="M9.00005 9.879L12.7126 6.1665L13.7731 7.227L9.00005 12L4.22705 7.227L5.28755 6.1665L9.00005 9.879Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_3_2242">
+                                    <rect width="18" height="18" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <div class="drop-down">
+                        <a href="permanent.html" class="link">Permanent Staff</a>
+                        <a href="supply-staff.html" class="link">Supply Staff</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="calender.html" class="link">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_3_2247)">
+                                <path
+                                    d="M12.75 2.25H15.75C15.9489 2.25 16.1397 2.32902 16.2803 2.46967C16.421 2.61032 16.5 2.80109 16.5 3V15C16.5 15.1989 16.421 15.3897 16.2803 15.5303C16.1397 15.671 15.9489 15.75 15.75 15.75H2.25C2.05109 15.75 1.86032 15.671 1.71967 15.5303C1.57902 15.3897 1.5 15.1989 1.5 15V3C1.5 2.80109 1.57902 2.61032 1.71967 2.46967C1.86032 2.32902 2.05109 2.25 2.25 2.25H5.25V0.75H6.75V2.25H11.25V0.75H12.75V2.25ZM15 6.75V3.75H12.75V5.25H11.25V3.75H6.75V5.25H5.25V3.75H3V6.75H15ZM15 8.25H3V14.25H15V8.25ZM4.5 9.75H8.25V12.75H4.5V9.75Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_3_2247">
+                                    <rect width="18" height="18" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p>Calendar</p>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="staff-processing.html" class="link">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_3_2253)">
+                                <path
+                                    d="M8.25 3H15.75V4.5H8.25V3ZM8.25 6H12.75V7.5H8.25V6ZM8.25 10.5H15.75V12H8.25V10.5ZM8.25 13.5H12.75V15H8.25V13.5ZM2.25 3H6.75V7.5H2.25V3ZM3.75 4.5V6H5.25V4.5H3.75ZM2.25 10.5H6.75V15H2.25V10.5ZM3.75 12V13.5H5.25V12H3.75Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_3_2253">
+                                    <rect width="18" height="18" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p>Staff Processing</p>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="job-board.html" class="link">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.25 2.25C11.664 2.25 12 2.586 12 3V4.5H15.75C16.164 4.5 16.5 4.836 16.5 5.25V15C16.5 15.414 16.164 15.75 15.75 15.75H2.25C1.836 15.75 1.5 15.414 1.5 15V5.25C1.5 4.836 1.836 4.5 2.25 4.5H6V3C6 2.586 6.336 2.25 6.75 2.25H11.25ZM12 6H6V14.25H12V6ZM3 6V14.25H4.5V6H3ZM10.5 3.75H7.5V4.5H10.5V3.75ZM13.5 6V14.25H15V6H13.5Z"
+                                fill="white" />
+                        </svg>
+
+                        <p>Job Board</p>
+                    </a>
+                </li>
+                <li>
+                    <small>Finance</small>
+                    <a href="statistics.html" class="link">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_3_2268)">
+                                <path
+                                    d="M2.25 9H3.75V15.75H2.25V9ZM14.25 6H15.75V15.75H14.25V6ZM8.25 1.5H9.75V15.75H8.25V1.5Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_3_2268">
+                                    <rect width="18" height="18" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p>Statistics</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="wallet.html" class="link">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_3_2274)">
+                                <path
+                                    d="M2.25 2.25H15.75C15.9489 2.25 16.1397 2.32902 16.2803 2.46967C16.421 2.61032 16.5 2.80109 16.5 3V15C16.5 15.1989 16.421 15.3897 16.2803 15.5303C16.1397 15.671 15.9489 15.75 15.75 15.75H2.25C2.05109 15.75 1.86032 15.671 1.71967 15.5303C1.57902 15.3897 1.5 15.1989 1.5 15V3C1.5 2.80109 1.57902 2.61032 1.71967 2.46967C1.86032 2.32902 2.05109 2.25 2.25 2.25ZM15 8.25H3V14.25H15V8.25ZM15 6.75V3.75H3V6.75H15ZM10.5 11.25H13.5V12.75H10.5V11.25Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_3_2274">
+                                    <rect width="18" height="18" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p>Wallet</p>
+                    </a>
+                </li>
+            </ul>
+            <a href="book-now.html" class="blue-border-btn">Book Now</a>
+            <ul class="bottom-fix">
+                <li>
+                    <small>Profile</small>
+                    <a href="" class="link">
+                        <p>Help Center</p>
+                    </a>
+                    <a href="save-setting.html" class="link active">
+                        <p>Settings</p>
+                    </a>
+                    <a href="" class="link">
+                        <p>Logout</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </sidebar>
+    <!-- Sidebar end -->
+
+    <main>
+        <div class="s-o-btn">
+            <span class="toggle-bar"></span>
+            <img src="assets/img/main-logo.png" alt="">
+        </div>
+        <div class="top-head">
+            <h1 class="top-title">Payment Method</h1>
+            <a href class="theme-bule-btn float-end">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_67_3571)">
+                        <path
+                            d="M13.5 15.75V9.75H4.5V15.75H3C2.80109 15.75 2.61032 15.671 2.46967 15.5303C2.32902 15.3897 2.25 15.1989 2.25 15V3C2.25 2.80109 2.32902 2.61032 2.46967 2.46967C2.61032 2.32902 2.80109 2.25 3 2.25H12.75L15.75 5.25V15C15.75 15.1989 15.671 15.3897 15.5303 15.5303C15.3897 15.671 15.1989 15.75 15 15.75H13.5ZM12 15.75H6V11.25H12V15.75Z"
+                            fill="white" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_67_3571">
+                            <rect width="18" height="18" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                Save settings
+            </a>
+        </div>
+
+
+        <section class="signup-step-container">
+            <div class="wizard">
+                <div class=" table-first staff-proff">
+                    <div class="empty-bg">
+                        <div class="mysetting-box">
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="university-box">
+                                        <div class="uni-box">
+                                            <h3>University of London</h3>
+                                            <span class="uni-btn rounded-pill">verified</span>
+                                        </div>
+                                        <div class="uni-form">
+                                            <div class="mb-3">
+                                                <label for="formGroupExampleInput" class="form-label">School
+                                                    name</label>
+                                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                                    placeholder="Matt">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="validationCustomUsername"
+                                                    class="form-label">Username</label>
+                                                <div class="input-group has-validation">
+                                                    <span class="input-group-text" id="inputGroupPrepend"><svg
+                                                            width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M13.5232 12.4627L16.7355 15.6742L15.6742 16.7355L12.4627 13.5232C11.2678 14.4812 9.7815 15.0022 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5C11.976 1.5 15 4.524 15 8.25C15.0022 9.7815 14.4812 11.2678 13.5232 12.4627ZM12.0187 11.9062C12.9706 10.9274 13.5021 9.61532 13.5 8.25C13.5 5.349 11.1502 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1502 5.349 13.5 8.25 13.5C9.61532 13.5021 10.9274 12.9706 11.9062 12.0187L12.0187 11.9062V11.9062Z"
+                                                                fill="#001B46" />
+                                                        </svg>
+                                                    </span>
+                                                    <input type="text" class="form-control"
+                                                        id="validationCustomUsername"
+                                                        aria-describedby="inputGroupPrepend" required>
+                                                    <div class="invalid-feedback">
+                                                        Please choose a username.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6">
+                                                    <label for="formGroupExampleInput" class="form-label">Email</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="info@andreavitto.com" aria-label="First name">
+                                                </div>
+                                                <div class="col-12 col-sm-2">
+                                                    <label for="inputState" class="form-label">State</label>
+                                                    <select id="inputState" class="form-select">
+                                                        <option selected>+44
+                                                            <svg width="19" height="18" viewBox="0 0 19 18" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M9.26201 9.879L12.9745 6.1665L14.035 7.227L9.26201 12L4.48901 7.227L5.54951 6.1665L9.26201 9.879Z"
+                                                                    fill="#001B46" />
+                                                            </svg>
+                                                        </option>
+                                                        <option>+11</option>
+                                                        <option>+11</option>
+                                                        <option>+11</option>
+                                                        <option>+11</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-12 col-sm-4 mt-auto">
+                                                    <label for="inputState" class="form-label"></label>
+                                                    <input type="text" class="form-control" placeholder="388 65 43 635"
+                                                        aria-label="First name">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-6">
+                                    <div class="reset-box">
+                                        <h3>Reset password</h3>
+                                        <div class="re-pass">
+                                            <div class="row">
+                                                <div class="col-xxl-6">
+                                                    <div class="uni-form">
+                                                        <div class="mb-3 svg-div">
+                                                            <label for="formGroupExampleInput" class="form-label">Type
+                                                                new password</label>
+                                                            <input type="text" class="form-control"
+                                                                id="formGroupExampleInput"
+                                                                placeholder="Insert a new password">
+                                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_0_3893)">
+                                                                    <path
+                                                                        d="M0.915039 9C1.58301 5.16 4.77148 2.25 8.60305 2.25C12.4346 2.25 15.6224 5.16 16.2911 9C15.6231 12.84 12.4346 15.75 8.60305 15.75C4.77148 15.75 1.58372 12.84 0.915039 9ZM8.60305 12.75C9.54537 12.75 10.4491 12.3549 11.1154 11.6517C11.7817 10.9484 12.1561 9.99456 12.1561 9C12.1561 8.00544 11.7817 7.05161 11.1154 6.34835C10.4491 5.64509 9.54537 5.25 8.60305 5.25C7.66074 5.25 6.75701 5.64509 6.09069 6.34835C5.42437 7.05161 5.05004 8.00544 5.05004 9C5.05004 9.99456 5.42437 10.9484 6.09069 11.6517C6.75701 12.3549 7.66074 12.75 8.60305 12.75ZM8.60305 11.25C8.03766 11.25 7.49543 11.0129 7.09564 10.591C6.69585 10.169 6.47124 9.59674 6.47124 9C6.47124 8.40326 6.69585 7.83097 7.09564 7.40901C7.49543 6.98705 8.03766 6.75 8.60305 6.75C9.16845 6.75 9.71068 6.98705 10.1105 7.40901C10.5103 7.83097 10.7349 8.40326 10.7349 9C10.7349 9.59674 10.5103 10.169 10.1105 10.591C9.71068 11.0129 9.16845 11.25 8.60305 11.25Z"
+                                                                        fill="black" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_0_3893">
+                                                                        <rect width="17.0545" height="18" fill="white"
+                                                                            transform="translate(0.0759277)" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xxl-6">
+                                                    <div class="uni-form">
+                                                        <div class="mb-3 svg-div">
+                                                            <label for="formGroupExampleInput" class="form-label">Repeat
+                                                                the new password</label>
+                                                            <input type="text" class="form-control"
+                                                                id="formGroupExampleInput"
+                                                                placeholder="Re-type the new password">
+                                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_0_3893)">
+                                                                    <path
+                                                                        d="M0.915039 9C1.58301 5.16 4.77148 2.25 8.60305 2.25C12.4346 2.25 15.6224 5.16 16.2911 9C15.6231 12.84 12.4346 15.75 8.60305 15.75C4.77148 15.75 1.58372 12.84 0.915039 9ZM8.60305 12.75C9.54537 12.75 10.4491 12.3549 11.1154 11.6517C11.7817 10.9484 12.1561 9.99456 12.1561 9C12.1561 8.00544 11.7817 7.05161 11.1154 6.34835C10.4491 5.64509 9.54537 5.25 8.60305 5.25C7.66074 5.25 6.75701 5.64509 6.09069 6.34835C5.42437 7.05161 5.05004 8.00544 5.05004 9C5.05004 9.99456 5.42437 10.9484 6.09069 11.6517C6.75701 12.3549 7.66074 12.75 8.60305 12.75ZM8.60305 11.25C8.03766 11.25 7.49543 11.0129 7.09564 10.591C6.69585 10.169 6.47124 9.59674 6.47124 9C6.47124 8.40326 6.69585 7.83097 7.09564 7.40901C7.49543 6.98705 8.03766 6.75 8.60305 6.75C9.16845 6.75 9.71068 6.98705 10.1105 7.40901C10.5103 7.83097 10.7349 8.40326 10.7349 9C10.7349 9.59674 10.5103 10.169 10.1105 10.591C9.71068 11.0129 9.16845 11.25 8.60305 11.25Z"
+                                                                        fill="black" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_0_3893">
+                                                                        <rect width="17.0545" height="18" fill="white"
+                                                                            transform="translate(0.0759277)" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="theme-bule-btn float-start mt-2">
+                                                Reset password
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <!-- <div class="setting-box">
+                            <h3>University of London</h3>
+
+                            <div class="credit-box">
+                                <label class="credit">Credit/Debit Card
+                                    <input type="radio" checked="checked" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="credit">Manual bank transfer
+                                    <input type="radio" name="radio">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+
+                            <h6>You will be automatically charged every 6 months based on the current amount due.</h6>
+
+                            <div class="credit-info">
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput" class="form-label">Card number</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput"
+                                        placeholder="0000 0000 0000 0000">
+                                </div>
+
+                                <div class="row">
+                                    <label for="formGroupExampleInput" class="form-label">Expire Date</label>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="mm/yy"
+                                            aria-label="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="000"
+                                            aria-label="Last name">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> -->
+
+
+
+    <!-- jQueary link  -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script>
+
+        // Sidebar JS
+        $(".drop-link").click(function () {
+            $(this).toggleClass("open");
+        });
+
+        // Sidebar toggle JS
+        $(".s-o-btn").click(function () {
+            $("body").toggleClass("sidebar-open");
+        });
+
+        // Form js 
+        $(document).ready(function () {
+            $('.nav-tabs > li a[title]').tooltip();
+
+            //Wizard
+            $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                var target = $(e.target);
+                if (target.parent().hasClass('disabled')) {
+                    return false;
+                }
+            });
+
+            $(".next-step").click(function (e) {
+                var active = $('.wizard .nav-tabs li.active');
+                active.next().removeClass('disabled');
+                nextTab(active);
+            });
+            $(".prev-step").click(function (e) {
+                var active = $('.wizard .nav-tabs li.active');
+                prevTab(active);
+            });
+        });
+
+        function nextTab(elem) {
+            $(elem).next().find('a[data-toggle="tab"]').click();
+        }
+        function prevTab(elem) {
+            $(elem).prev().find('a[data-toggle="tab"]').click();
+        }
+        $('.nav-tabs').on('click', 'li', function () {
+            $('.nav-tabs li.active').removeClass('active');
+            $(this).addClass('active');
+        });
+
+    </script>
+</body>
+
+</html>

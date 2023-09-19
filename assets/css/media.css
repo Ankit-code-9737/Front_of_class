@@ -1,0 +1,648 @@
+@media (min-width: 1580px) {
+    .horizontal-line {
+        margin: 20px 0px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .book-btn {
+        float: right;
+    }
+
+    .reset-box {
+        height: 245px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .scroll-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .scroll-container table {
+        width: 1200px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #001B46;
+        border-radius: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    /* table:last-child {
+        margin-bottom: 40px;
+    } */
+}
+
+
+@media (max-width: 1200px) {
+    .university-box {
+        margin-bottom: 10px;
+    }
+
+    .reset-box .re-pass .theme-bule-btn {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width:991px) {
+    .sidebar {
+        margin-left: -230px;
+        transition: 0.3s;
+        padding-top: 0;
+    }
+
+    body.sidebar-open .sidebar {
+        margin-left: 0;
+        transition: 0.3s;
+    }
+
+    main {
+        margin-left: 0;
+        transition: 0.3s;
+    }
+
+    body.sidebar-open main {
+        margin-left: 230px;
+    }
+
+    .sidebar .logo img {
+        opacity: 0;
+    }
+
+
+    .toggle-bar {
+        width: 30px;
+        border-top: 3px solid #ffffff;
+        display: block;
+        position: absolute;
+        top: 36px;
+        left: 30px;
+    }
+
+
+
+    .toggle-bar::before,
+    .toggle-bar::after {
+        content: "";
+        display: block;
+        background: #f1f1f1;
+        height: 3px;
+        width: 30px;
+        position: absolute;
+        top: -12px;
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -ms-transform-origin: 13%;
+        -webkit-transform-origin: 13%;
+        transform-origin: 13%;
+        transition: .3s;
+    }
+
+    .toggle-bar::after {
+        top: 6px;
+        left: 0px;
+
+    }
+
+    .sidebar-open .toggle-bar::before {
+        transform: rotate(43deg);
+    }
+
+    .sidebar-open .toggle-bar::after {
+        transform: rotate(316deg);
+        top: 3px;
+    }
+
+    .sidebar-open .toggle-bar {
+        border: transparent;
+    }
+
+    .s-o-btn {
+        position: fixed;
+        text-align: center;
+        top: 0;
+        left: 0;
+        padding: 11px;
+        display: block;
+        background: #001B46;
+        width: 100%;
+        color: #fff !important;
+        transition: 0.3s;
+        z-index: 9999;
+    }
+
+    .s-o-btn img {
+        max-width: 150px;
+    }
+
+    .s-o-btn svg {
+        position: absolute;
+        top: 26px;
+        left: 20px;
+        transition: 0.3s;
+    }
+
+    /* .sidebar-open .s-o-btn svg {
+        left: 250px;
+    } */
+
+    /* .sidebar-open .s-o-btn {
+        padding-left: 240px;
+    } */
+
+    main {
+        padding: 100px 20px;
+    }
+
+    .top-title {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .light-card h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .light-card h2 {
+        font-size: 30px;
+    }
+
+    .mt-50 {
+        margin-top: 30px;
+    }
+
+    #myChart {
+        width: 100% !important;
+    }
+
+    .main-bg {
+        padding: 16px 20px;
+    }
+
+    .main-title {
+        font-size: 20px;
+    }
+
+    .main-chart-div .main-text h5 {
+        font-size: 16px;
+    }
+
+    .stati-table,
+    .pagination-drop {
+        margin-top: 30px;
+    }
+
+    .wizard>div.wizard-inner {
+        margin-bottom: 30px;
+    }
+
+    .advance-search .fix-height {
+        height: auto;
+        margin-top: 16px;
+    }
+
+    .wizard .tab-pane {
+        padding-top: 0;
+    }
+
+    .md-margin {
+        margin-top: 16px;
+    }
+
+    .form-line-img {
+        display: none;
+    }
+
+    .modal.show .modal-dialog {
+        margin-top: 100px;
+    }
+
+    .search-new-staff .theme-bule-btn {
+        margin-top: 16px;
+    }
+
+    .wizard .nav-tabs>li a {
+        padding: 4px;
+
+    }
+
+    .wizard .nav-tabs>li a span {
+        font-size: 15px;
+    }
+
+    .search-div {
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    body.sidebar-open main {
+        margin-left: 0;
+    }
+
+    .wallet-one h3 {
+        font-size: 22px;
+    }
+
+    .wallet-two h3 {
+        font-size: 22px;
+    }
+
+    .wallet-two h4 {
+        font-size: 22px;
+    }
+
+    .fc-button-group button,
+    .fc-direction-ltr .fc-button-group>.fc-button:not(:last-child),
+    .fc-direction-ltr .fc-button-group>.fc-button:not(:first-child),
+    .fc-direction-ltr .fc-toolbar>*>:not(:first-child) {
+        font-size: 12px;
+    }
+
+    .fc .fc-toolbar-title {
+        font-size: 20px;
+    }
+
+    .statimodel .image-details {
+        display: block;
+    }
+
+    .statimodel h6 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .teach-book-confirm p {
+        font-size: 15px;
+    }
+
+    .tea-title {
+        font-size: 20px;
+    }
+
+    .right-side .text {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .tea-sub-title {
+        font-size: 18px;
+    }
+
+    .inter-form .redio-wrpp {
+        display: block;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .university-box h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-heading {
+        margin-bottom: 20px;
+    }
+
+    .light-date {
+        padding: 14px 14px;
+        display: block;
+    }
+
+    .light-date p {
+        margin-top: 14px;
+        margin-bottom: 0px;
+    }
+
+    .university-box {
+        height: 100%;
+    }
+
+    .reset-box {
+        margin-top: 10px;
+    }
+
+    .university-box h3 {
+        font-size: 16px;
+    }
+
+    .mysetting-box {
+        margin-top: 30px;
+    }
+
+    .reset-box h3 {
+        font-size: 16px;
+    }
+
+    .university-box {
+        padding: 14px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .light-card {
+        margin-bottom: 10px;
+    }
+
+    .card-area {
+        margin-top: 0px;
+    }
+
+    .details-block {
+        padding: 36px 0px;
+    }
+}
+
+@media (min-width: 576px) {
+    .pending-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .main-heading {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .main-heading {
+        margin-bottom: 34px;
+    }
+
+    .top-title {
+        font-size: 34px;
+    }
+
+    .theme-bule-btn {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .top-head .theme-bule-btn {
+        margin-top: -38px;
+    }
+
+    .top-title {
+        font-size: 30px;
+    }
+
+    .border-blue-btn a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .border-blue-btn {
+        padding: 4px 4px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1053px) {
+    .horizontal-line {
+        margin: 35px 0px;
+    }
+}
+
+@media (min-width: 1054px) and (max-width: 1200px) {
+    .horizontal-line {
+        margin: 30px 0px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1229px) {
+    .horizontal-line {
+        margin: 30px 0px;
+    }
+}
+
+
+
+@media (min-width: 1337px) and (max-width: 1580px) {
+    .horizontal-line {
+        margin: 30px 0px;
+    }
+}
+
+@media (min-width: 1230px) and (max-width: 1337px) {
+    .horizontal-line {
+        margin: 37px 0px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .main-chart-div .main-text {
+        display: block;
+    }
+
+    .main-chart-div .main-text h5 {
+        margin: 16px 0;
+    }
+
+    .pagination-drop {
+        display: block;
+    }
+
+    .pagination-drop .form-select {
+        margin-left: 0;
+    }
+
+    .pagination-drop .select-div {
+        margin-top: 10px;
+    }
+
+    .wizard .nav-tabs>li {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .wizard .nav-tabs {
+        display: block;
+    }
+
+    .theme-bule-btn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .prev-step,
+    .next-step {
+        font-size: 15px;
+        padding: 6px 10px;
+    }
+
+    .row-flex {
+        display: block;
+    }
+
+    .calender-over {
+        overflow: auto;
+    }
+
+    #calendar {
+        min-width: 700px;
+    }
+
+    .wizard .nav-tabs>li a {
+        padding: 0px 4px;
+    }
+}
+
+@media (max-width: 440px) {
+    .theme-bule-btn {
+        font-size: 10px;
+        font-weight: 400;
+        padding: 6px 8px;
+    }
+
+    .top-head .theme-bule-btn {
+        margin-top: -25px;
+    }
+
+    .top-title {
+        font-size: 18px;
+    }
+
+    .top-title {
+        font-size: 18px;
+    }
+
+    .border-blue-btn a {
+        font-size: 10px;
+        font-weight: 400;
+        padding: 6px 8px;
+    }
+
+    .border-blue-btn {
+        padding: 0px 0px;
+    }
+
+    .wallet-one h2 {
+        font-size: 20px;
+    }
+
+    .main-title {
+        font-size: 18px;
+    }
+
+    .setting-box {
+        margin-top: 80px;
+    }
+
+    .border-blue-btn {
+        margin-top: -22px;
+    }
+
+    .setting-box h3 {
+        font-size: 18px;
+    }
+
+    .credit-box label {
+        font-size: 16px;
+    }
+
+    .setting-box h6 {
+        font-size: 16px;
+    }
+
+    .credit .checkmark:after {
+        top: 6px;
+        left: 6px;
+    }
+
+    .checkmark {
+        height: 20px;
+        width: 20px;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 768px) {
+    .theme-bule-btn {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 6px 8px;
+    }
+
+    .top-head .theme-bule-btn {
+        margin-top: -27px;
+    }
+
+    .top-title {
+        font-size: 24px;
+    }
+
+    .top-title {
+        font-size: 24px;
+    }
+
+    .border-blue-btn {
+        padding: 4px 6px;
+    }
+
+    .border-blue-btn a {
+        font-size: 14px;
+    }
+
+    .wallet-one h3 {
+        font-size: 22px;
+    }
+
+    .wallet-one h2 {
+        font-size: 30px;
+    }
+
+    .top-title {
+        font-size: 24px;
+    }
+
+    .setting-box {
+        margin-top: 100px;
+    }
+
+    .setting-box h3 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    /* .fc .fc-toolbar {
+        display: block;
+        text-align: center;
+    }
+
+    .fc-toolbar-chunk {
+        margin: 16px 0;
+    } */
+}
